@@ -1,0 +1,21 @@
+.dropdown-box {
+  border: var(--border-primary-red);
+  width: 100%;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 0.5rem 1rem rgba($color-black, 0.1);
+  cursor: pointer;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  &:hover {
+    transform: translateY(-3px);
+    background-color: $color-primary-red;
+    color: $color-white;
+  }
+
+  &__content {
+    // display: none;
+    border-top: var(--border-primary-red);
+  }
+}

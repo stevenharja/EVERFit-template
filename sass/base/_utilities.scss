@@ -1,0 +1,32 @@
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+}
+.u-margin-bottom-large {
+  margin-bottom: 6rem !important;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + * {
+  margin-top: 7.5rem;
+}
+
+//Only for Body.
+.show-popup {
+  overflow: hidden;
+}
+
+.display-content {
+  display: block !important;
+}

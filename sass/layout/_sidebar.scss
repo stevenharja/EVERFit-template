@@ -1,0 +1,51 @@
+.sidebar {
+  border: var(--border-grey);
+  padding: 2rem;
+  display: grid;
+  grid-auto-rows: minmax(min-content, max-content);
+  row-gap: 1rem;
+  &__title {
+    font-size: 2rem;
+    border-bottom: var(--border-grey);
+  }
+
+  &__item {
+    padding: 1rem 0;
+    border-bottom: var(--border-grey);
+    display: grid;
+    row-gap: 1rem;
+  }
+
+  &__type {
+    font-size: 1.5rem;
+  }
+
+  &__options-item {
+    display: flex;
+  }
+
+  &__options {
+    display: grid;
+    row-gap: 0.5rem;
+  }
+
+  &__label {
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+
+  &__input {
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+
+  &__button {
+    font-size: 1.5rem;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: $color-primary-red;
+    border-radius: 3px;
+    color: $color-white;
+  }
+}

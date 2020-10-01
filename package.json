@@ -1,0 +1,15 @@
+{
+  "name": "everfit-template",
+  "version": "1.0.0",
+  "description": "A template design as a temporary replacement for display",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Steven Harjapramana",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

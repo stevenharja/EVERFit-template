@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVERFit - Workout Program List</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900"
+    />
+    <link rel="stylesheet" href="css/icofont.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header-alt">
+      <div class="header-alt__logo-box">
+        <img src="img/logo-fit-ever.png" alt="Logo" class="header-alt__logo" />
+      </div>
+      <form class="header-alt__search-box">
+        <input
+          type="text"
+          class="header-alt__search-input"
+          placeholder="Search for programs here..."
+        />
+        <button class="header-alt__search-button">
+          <svg class="header-alt__search-icon">
+            <use xlink:href="img/sprite.svg#icon-search"></use>
+          </svg>
+        </button>
+      </form>
+
+      <input
+        type="checkbox"
+        class="header-alt__checkbox"
+        id="header-alt__menu"
+      />
+      <label for="header-alt__menu" class="header-alt__menu-label">
+        <!-- <span class="header-alt__menu-logo"></span> -->
+        <svg class="header-alt__menu-logo">
+          <use xlink:href="img/sprite.svg#icon-menu"></use>
+        </svg>
+      </label>
+      <nav class="header-alt__nav">
+        <div class="header-alt__nav-item">
+          <a href="select-programs.html" class="header-alt__nav-link">Home</a>
+        </div>
+        <div class="header-alt__nav-item">
+          <a href="select-programs.html" class="header-alt__nav-link"
+            >My Programs</a
+          >
+        </div>
+        <div class="header-alt__nav-item">
+          <a href="account.html" class="header-alt__nav-link">Account</a>
+        </div>
+        <div class="header-alt__nav-item header-alt__nav-item--priority">
+          <figure class="header-alt__nav-user">
+            <img
+              src="img/profile-img.jpg"
+              alt="Profile picture"
+              class="header-alt__nav-user-img"
+            />
+            <svg class="header-alt__nav-user-icon">
+              <use xlink:href="img/sprite.svg#icon-cogs"></use>
+            </svg>
+          </figure>
+        </div>
+        <!-- IF USER IS NOT LOGGED IN -->
+        <!-- <div class="header-alt__nav-item">
+          <a href="#" class="header-alt__nav-link">Login</a>
+        </div>
+        <div class="header-alt__nav-item">
+          <a href="#" class="header-alt__nav-link">Sign Up</a>
+        </div> -->
+      </nav>
+    </header>
+
+    <div class="section-title">
+      <h2 class="heading-secondary heading-secondary--gradient">
+        Workout Programs
+      </h2>
+    </div>
+
+    <main>
+      <section class="section-recommended">
+        <div class="u-margin-bottom-small">
+          <h2 class="heading-secondary-sub">
+            Recommended Programs Based On Your History
+          </h2>
+        </div>
+        <div class="row-list">
+          <div class="row-list__content">
+            <a href="program.html" class="program-lite">
+              <div class="program-lite__image-box">
+                <!-- Contains Image -->
+                <img
+                  src="img/program-1.jpg"
+                  alt="Program 1"
+                  class="program-lite__image"
+                />
+              </div>
+              <div class="program-lite__content">
+                <!-- Contains the level/days, reviews, ratings, who created it etc -->
+                <div class="program-lite__title">
+                  30-Days Beginner Body Combat
+                </div>
+                <div class="program-lite__creator">Steven Harjapramana</div>
+                <div class="program-lite__ratings">
+                  <div class="program-lite__star-number">4.8</div>
+                  <div class="program-lite__stars">
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="program-lite__tags">
+                  <span class="program-lite__tag-item">Beginner</span>
+                </div>
+              </div>
+              <!-- <div class="program-lite__popup-description">
+                Contains all the relevant text inside the popup, which includes the days level, summary
+              </div> -->
+            </a>
+            <a href="program.html" class="program-lite">
+              <div class="program-lite__image-box">
+                <!-- Contains Image -->
+                <img
+                  src="img/program-1.jpg"
+                  alt="Program 1"
+                  class="program-lite__image"
+                />
+              </div>
+              <div class="program-lite__content">
+                <!-- Contains the level/days, reviews, ratings, who created it etc -->
+                <div class="program-lite__title">
+                  30-Days Beginner Body Combat
+                </div>
+                <div class="program-lite__creator">Steven Harjapramana</div>
+                <div class="program-lite__ratings">
+                  <div class="program-lite__star-number">4.8</div>
+                  <div class="program-lite__stars">
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="program-lite__tags">
+                  <span class="program-lite__tag-item">Beginner</span>
+                </div>
+              </div>
+              <!-- <div class="program-lite__popup-description">
+                Contains all the relevant text inside the popup, which includes the days level, summary
+              </div> -->
+            </a>
+            <a href="program.html" class="program-lite">
+              <div class="program-lite__image-box">
+                <!-- Contains Image -->
+                <img
+                  src="img/program-1.jpg"
+                  alt="Program 1"
+                  class="program-lite__image"
+                />
+              </div>
+              <div class="program-lite__content">
+                <!-- Contains the level/days, reviews, ratings, who created it etc -->
+                <div class="program-lite__title">
+                  30-Days Beginner Body Combat
+                </div>
+                <div class="program-lite__creator">Steven Harjapramana</div>
+                <div class="program-lite__ratings">
+                  <div class="program-lite__star-number">4.8</div>
+                  <div class="program-lite__stars">
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="program-lite__tags">
+                  <span class="program-lite__tag-item">Beginner</span>
+                </div>
+              </div>
+              <!-- <div class="program-lite__popup-description">
+                Contains all the relevant text inside the popup, which includes the days level, summary
+              </div> -->
+            </a>
+            <a href="program.html" class="program-lite">
+              <div class="program-lite__image-box">
+                <!-- Contains Image -->
+                <img
+                  src="img/program-1.jpg"
+                  alt="Program 1"
+                  class="program-lite__image"
+                />
+              </div>
+              <div class="program-lite__content">
+                <!-- Contains the level/days, reviews, ratings, who created it etc -->
+                <div class="program-lite__title">
+                  30-Days Beginner Body Combat
+                </div>
+                <div class="program-lite__creator">Steven Harjapramana</div>
+                <div class="program-lite__ratings">
+                  <div class="program-lite__star-number">4.8</div>
+                  <div class="program-lite__stars">
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                    <svg class="program-lite__icon-star">
+                      <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="program-lite__tags">
+                  <span class="program-lite__tag-item">Beginner</span>
+                </div>
+              </div>
+              <!-- <div class="program-lite__popup-description">
+                Contains all the relevant text inside the popup, which includes the days level, summary
+              </div> -->
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Program -->
+      <section class="section-featured">
+        <div class="u-margin-bottom-small">
+          <h2 class="heading-secondary-sub heading-secondary-sub--white">
+            Our Weekly Top Pick
+          </h2>
+        </div>
+        <a href="program.html" class="program">
+          <!-- Contains Image -->
+          <img
+            src="img/program-4.jpg"
+            alt="Program Title"
+            class="program__image"
+          />
+          <div class="program__content">
+            <div class="program__title">
+              28-Days Full Body Bodyweight Transformation: Quarantine Edition
+            </div>
+            <div class="program__creator">Jason Krae</div>
+            <div class="program__lecture-count">34 total lectures</div>
+            <div class="program__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Obcaecati perspiciatis fugiat voluptates voluptatibus excepturi,
+              possimus inventore doloribus quae illo reiciendis iure officiis
+              voluptatum qui hic consectetur adipisci dolores, nesciunt aliquam?
+            </div>
+            <div class="program__ratings">
+              <div class="program__star-number">4.8</div>
+              <div class="program__stars">
+                <svg class="program__icon-star">
+                  <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                </svg>
+                <svg class="program__icon-star">
+                  <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                </svg>
+                <svg class="program__icon-star">
+                  <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                </svg>
+                <svg class="program__icon-star">
+                  <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                </svg>
+                <svg class="program__icon-star">
+                  <use xlink:href="img/sprite.svg#icon-star-half"></use>
+                </svg>
+              </div>
+              <div class="program__ratings-number">(13,221)</div>
+            </div>
+            <div class="program__tags">
+              <span class="program__tag-item">Beginner</span>
+              <span class="program__tag-item">Intermediate</span>
+              <span class="program__tag-item">Advanced</span>
+            </div>
+          </div>
+        </a>
+      </section>
+      <!-- List of programs, with sort button on the right  -->
+      <section class="section-all-programs">
+        <div class="u-margin-bottom-small">
+          <h2 class="heading-secondary-sub">Our Programs</h2>
+        </div>
+        <div class="section-all-programs__content">
+          <form class="sidebar">
+            <h1 class="sidebar__title">Filter</h1>
+            <div class="sidebar__item">
+              <div class="sidebar__type">Categories</div>
+              <div class="sidebar__options">
+                <div class="sidebar__options-item">
+                  <input type="checkbox" class="sidebar__input" id="cardio" />
+                  <label for="cardio" class="sidebar__label"
+                    >Cardio (5,000)</label
+                  >
+                </div>
+                <div class="sidebar__options-item">
+                  <input type="checkbox" class="sidebar__input" id="gym" />
+                  <label for="gym" class="sidebar__label">Gym (5,000)</label>
+                </div>
+                <div class="sidebar__options-item">
+                  <input type="checkbox" class="sidebar__input" id="home" />
+                  <label for="home" class="sidebar__label">Home (5,000)</label>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar__item">
+              <div class="sidebar__type">Daily Workout</div>
+              <div class="sidebar__options">
+                <div class="sidebar__options-item">
+                  <input type="checkbox" class="sidebar__input" id="30min" />
+                  <label for="30min" class="sidebar__label"
+                    >30 minutes (5,000)</label
+                  >
+                </div>
+                <div class="sidebar__options-item">
+                  <input type="checkbox" class="sidebar__input" id="45min" />
+                  <label for="45min" class="sidebar__label"
+                    >45 minutes (5,000)</label
+                  >
+                </div>
+                <div class="sidebar__options-item">
+                  <input type="checkbox" class="sidebar__input" id="60min" />
+                  <label for="60min" class="sidebar__label"
+                    >60+ minutes (5,000)</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="sidebar__item">
+              <div class="sidebar__type">Type</div>
+              <div class="sidebar__options">
+                <div class="sidebar__options-item">
+                  <input type="checkbox" class="sidebar__input" id="premium" />
+                  <label for="premium" class="sidebar__label"
+                    >Premium (5,000)</label
+                  >
+                </div>
+                <div class="sidebar__options-item">
+                  <input type="checkbox" class="sidebar__input" id="free" />
+                  <label for="free" class="sidebar__label">Free (5,000)</label>
+                </div>
+              </div>
+            </div>
+            <button class="sidebar__button" type="submit">Search</button>
+          </form>
+          <div class="row-list">
+            <div class="row-list__content">
+              <a href="program.html" class="program-lite">
+                <div class="program-lite__image-box">
+                  <!-- Contains Image -->
+                  <img
+                    src="img/program-1.jpg"
+                    alt="Program 1"
+                    class="program-lite__image"
+                  />
+                </div>
+                <div class="program-lite__content">
+                  <!-- Contains the level/days, reviews, ratings, who created it etc -->
+                  <div class="program-lite__title">
+                    30-Days Beginner Body Combat
+                  </div>
+                  <div class="program-lite__creator">Steven Harjapramana</div>
+                  <div class="program-lite__ratings">
+                    <div class="program-lite__star-number">4.8</div>
+                    <div class="program-lite__stars">
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="program-lite__tags">
+                    <span class="program-lite__tag-item">Beginner</span>
+                  </div>
+                </div>
+                <!-- <div class="program-lite__popup-description">
+                    Contains all the relevant text inside the popup, which includes the days level, summary
+                  </div> -->
+              </a>
+              <a href="program.html" class="program-lite">
+                <div class="program-lite__image-box">
+                  <!-- Contains Image -->
+                  <img
+                    src="img/program-1.jpg"
+                    alt="Program 1"
+                    class="program-lite__image"
+                  />
+                </div>
+                <div class="program-lite__content">
+                  <!-- Contains the level/days, reviews, ratings, who created it etc -->
+                  <div class="program-lite__title">
+                    30-Days Beginner Body Combat
+                  </div>
+                  <div class="program-lite__creator">Steven Harjapramana</div>
+                  <div class="program-lite__ratings">
+                    <div class="program-lite__star-number">4.8</div>
+                    <div class="program-lite__stars">
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="program-lite__tags">
+                    <span class="program-lite__tag-item">Beginner</span>
+                  </div>
+                </div>
+                <!-- <div class="program-lite__popup-description">
+                    Contains all the relevant text inside the popup, which includes the days level, summary
+                  </div> -->
+              </a>
+              <a href="program.html" class="program-lite">
+                <div class="program-lite__image-box">
+                  <!-- Contains Image -->
+                  <img
+                    src="img/program-1.jpg"
+                    alt="Program 1"
+                    class="program-lite__image"
+                  />
+                </div>
+                <div class="program-lite__content">
+                  <!-- Contains the level/days, reviews, ratings, who created it etc -->
+                  <div class="program-lite__title">
+                    30-Days Beginner Body Combat
+                  </div>
+                  <div class="program-lite__creator">Steven Harjapramana</div>
+                  <div class="program-lite__ratings">
+                    <div class="program-lite__star-number">4.8</div>
+                    <div class="program-lite__stars">
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="program-lite__tags">
+                    <span class="program-lite__tag-item">Beginner</span>
+                  </div>
+                </div>
+                <!-- <div class="program-lite__popup-description">
+                    Contains all the relevant text inside the popup, which includes the days level, summary
+                  </div> -->
+              </a>
+              <a href="program.html" class="program-lite">
+                <div class="program-lite__image-box">
+                  <!-- Contains Image -->
+                  <img
+                    src="img/program-1.jpg"
+                    alt="Program 1"
+                    class="program-lite__image"
+                  />
+                </div>
+                <div class="program-lite__content">
+                  <!-- Contains the level/days, reviews, ratings, who created it etc -->
+                  <div class="program-lite__title">
+                    30-Days Beginner Body Combat
+                  </div>
+                  <div class="program-lite__creator">Steven Harjapramana</div>
+                  <div class="program-lite__ratings">
+                    <div class="program-lite__star-number">4.8</div>
+                    <div class="program-lite__stars">
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="program-lite__tags">
+                    <span class="program-lite__tag-item">Beginner</span>
+                  </div>
+                </div>
+                <!-- <div class="program-lite__popup-description">
+                    Contains all the relevant text inside the popup, which includes the days level, summary
+                  </div> -->
+              </a>
+              <a href="program.html" class="program-lite">
+                <div class="program-lite__image-box">
+                  <!-- Contains Image -->
+                  <img
+                    src="img/program-1.jpg"
+                    alt="Program 1"
+                    class="program-lite__image"
+                  />
+                </div>
+                <div class="program-lite__content">
+                  <!-- Contains the level/days, reviews, ratings, who created it etc -->
+                  <div class="program-lite__title">
+                    30-Days Beginner Body Combat
+                  </div>
+                  <div class="program-lite__creator">Steven Harjapramana</div>
+                  <div class="program-lite__ratings">
+                    <div class="program-lite__star-number">4.8</div>
+                    <div class="program-lite__stars">
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="program-lite__tags">
+                    <span class="program-lite__tag-item">Beginner</span>
+                  </div>
+                </div>
+                <!-- <div class="program-lite__popup-description">
+                    Contains all the relevant text inside the popup, which includes the days level, summary
+                  </div> -->
+              </a>
+              <a href="program.html" class="program-lite">
+                <div class="program-lite__image-box">
+                  <!-- Contains Image -->
+                  <img
+                    src="img/program-1.jpg"
+                    alt="Program 1"
+                    class="program-lite__image"
+                  />
+                </div>
+                <div class="program-lite__content">
+                  <!-- Contains the level/days, reviews, ratings, who created it etc -->
+                  <div class="program-lite__title">
+                    30-Days Beginner Body Combat
+                  </div>
+                  <div class="program-lite__creator">Steven Harjapramana</div>
+                  <div class="program-lite__ratings">
+                    <div class="program-lite__star-number">4.8</div>
+                    <div class="program-lite__stars">
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="program-lite__tags">
+                    <span class="program-lite__tag-item">Beginner</span>
+                  </div>
+                </div>
+                <!-- <div class="program-lite__popup-description">
+                    Contains all the relevant text inside the popup, which includes the days level, summary
+                  </div> -->
+              </a>
+              <a href="program.html" class="program-lite">
+                <div class="program-lite__image-box">
+                  <!-- Contains Image -->
+                  <img
+                    src="img/program-1.jpg"
+                    alt="Program 1"
+                    class="program-lite__image"
+                  />
+                </div>
+                <div class="program-lite__content">
+                  <!-- Contains the level/days, reviews, ratings, who created it etc -->
+                  <div class="program-lite__title">
+                    30-Days Beginner Body Combat
+                  </div>
+                  <div class="program-lite__creator">Steven Harjapramana</div>
+                  <div class="program-lite__ratings">
+                    <div class="program-lite__star-number">4.8</div>
+                    <div class="program-lite__stars">
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="program-lite__tags">
+                    <span class="program-lite__tag-item">Beginner</span>
+                  </div>
+                </div>
+                <!-- <div class="program-lite__popup-description">
+                    Contains all the relevant text inside the popup, which includes the days level, summary
+                  </div> -->
+              </a>
+              <a href="program.html" class="program-lite">
+                <div class="program-lite__image-box">
+                  <!-- Contains Image -->
+                  <img
+                    src="img/program-1.jpg"
+                    alt="Program 1"
+                    class="program-lite__image"
+                  />
+                </div>
+                <div class="program-lite__content">
+                  <!-- Contains the level/days, reviews, ratings, who created it etc -->
+                  <div class="program-lite__title">
+                    30-Days Beginner Body Combat
+                  </div>
+                  <div class="program-lite__creator">Steven Harjapramana</div>
+                  <div class="program-lite__ratings">
+                    <div class="program-lite__star-number">4.8</div>
+                    <div class="program-lite__stars">
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                      <svg class="program-lite__icon-star">
+                        <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="program-lite__tags">
+                    <span class="program-lite__tag-item">Beginner</span>
+                  </div>
+                </div>
+                <!-- <div class="program-lite__popup-description">
+                    Contains all the relevant text inside the popup, which includes the days level, summary
+                  </div> -->
+              </a>
+            </div>
+            <div class="row-list__pagination">
+              <a href="#" class="btn-small">
+                <svg class="btn-small__icon">
+                  <use xlink:href="img/sprite.svg#icon-arrow-left"></use>
+                </svg>
+              </a>
+              <div class="row-list__pagination-number">1</div>
+              <a href="#" class="btn-small">
+                <svg class="btn-small__icon">
+                  <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Categories for recommendation with a 1x5 grid -->
+
+    <!-- Footer -->
+    <footer class="footer-alt">
+      <!-- Logo -->
+      <div class="footer-alt__logo-box">
+        <img src="img/logo-fit-ever.png" alt="Logo" class="footer-alt__logo" />
+      </div>
+      <!-- Contact Support -->
+      <div class="footer-alt__navigation">
+        <ul class="footer-alt__list">
+          <li class="footer-alt__item">
+            <a href="#" class="footer-alt__link">Contact Us</a>
+          </li>
+          <li class="footer-alt__item">
+            <a href="#" class="footer-alt__link">About Us</a>
+          </li>
+          <li class="footer-alt__item">
+            <a href="#" class="footer-alt__link">Careers</a>
+          </li>
+          <li class="footer-alt__item">
+            <a href="#" class="footer-alt__link">Terms</a>
+          </li>
+          <li class="footer-alt__item">
+            <a href="#" class="footer-alt__link">Privacy Policy</a>
+          </li>
+          <li class="footer-alt__item">
+            <a href="#" class="footer-alt__link">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Copyright Text -->
+      <p class="footer-alt__copyright">
+        Copyright by Steven Harjapramana &copy; 2020. All images and videos used
+        in this website belongs to their respective owners and I do not take
+        credit of them.
+      </p>
+    </footer>
+  </body>
+  <script type="module" src="js/index.js"></script>
+</html>

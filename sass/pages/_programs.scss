@@ -1,0 +1,14 @@
+.section-program-summary {
+  background-image: linear-gradient(
+    to right,
+    $color-primary-red,
+    $color-primary-blue
+  );
+  padding: 3rem 5rem;
+}
+
+.section-program-content {
+  background-color: var(--color-grey-light);
+  display: grid;
+  row-gap: 5rem;
+}

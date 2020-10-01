@@ -1,0 +1,6 @@
+.section-account {
+  margin: 5rem 10rem;
+  @include respond(phone) {
+    margin: 0;
+  }
+}
